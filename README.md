@@ -37,6 +37,7 @@ print('Coefficients: ', regr.coef_)
 print('Intercept:', regr.intercept_)
 predictedCO2=regr.predict([[3300, 1300]])
 print('Predicted CO2 for the corresponding weight and volume:',predictedCO2)
+```
 
 ## Output:
 ![output](./R1.png)
